@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+        <!--? slider Area Start-->
+            {%  include 'hero.html'%}
+        <!-- slider Area End-->
+
+        <!--? Clients Offers Start -->
+            {% include 'clientes.html' %}
+        <!-- Clients Offers End -->
+
+        <!--? Visit Our Tailor Start -->
+            {% include 'servicos.html' %}
+        <!--? Services Area End -->
+
+        <!--? video_start -->
+        <!-- video_end -->
+
+        <!--? Testimonial Area Start -->
+            {% include 'testemunho.html' %}
+        <!--? Testimonial Area End -->
+
+        <!--? instagram-social start -->
+            {% include 'instagram.html' %}
+        <!-- instagram-social End -->
+
+        <!-- Footer Start-->
+            {%  include 'footer.html' %}
+        <!-- Footer End-->
+          <!-- Map -->
+{% endblock %}
