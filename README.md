@@ -1,2 +1,2 @@
 # Lampro-web
-I start to make this in beginning of the year 
+I started make this in beginning of the year.
